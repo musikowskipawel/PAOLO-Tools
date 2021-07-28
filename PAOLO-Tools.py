@@ -86,7 +86,7 @@ def main():
     if not os.path.isdir(volumeNumber): os.mkdir(volumeNumber)
     
     # loop for counting the images and chapters in the base folder and then creating folders and converting images to them
-    for f in os.listdir(inputFolder):
+    for f in os_sorted(os.listdir(inputFolder)):
         print("\ninput folder name: " + f)
         createFolder()
         print("")
