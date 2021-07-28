@@ -3,7 +3,7 @@ This tool should make all-ready volume, from just collection of randomly downloa
 
 99% of the code is copied from [Okuma-Tools](https://github.com/DrMint/Okuma-Tools)
 
-Example Directory:
+### Example Directory:
 	- some folder/
 		- ULTRAAWESOMEMANGA/
 			- 001 CHAPTER of this awesome manga and stuff/
@@ -17,7 +17,7 @@ Example Directory:
 Example Command:
 	- PAOLO-Tools.py ULTRAAWESOMEMANGA 1
 	
-What it creates in Example Directory:
+### What it creates in Example Directory:
 	- some folder/
 		- etc.
 		- etc.
