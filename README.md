@@ -1,6 +1,6 @@
 # PAOLO-Tools
+It's for [Okuma-Reader](https://github.com/DrMint/Okuma-Reader)
 This tool should make all-ready volume, from just collection of randomly downloaded manga folders
-
 99% of the code is copied from [Okuma-Tools](https://github.com/DrMint/Okuma-Tools)
 
 ### Example Directory:
