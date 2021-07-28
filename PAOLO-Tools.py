@@ -19,11 +19,13 @@ def loadJSON(filePath):
 parser = argparse.ArgumentParser(prog='PAOLO-Tool', description='it should make volume')
 parser.add_argument('inputFolder', metavar='INPUT_FOLDER', type=str, help='source images folder')
 parser.add_argument('volumeNumber', metavar='VOLUME_NUMBER', type=str, help='volume number, to create folder')
+parser.add_argument('--jp', help="sets japanese order", action="store_true")
 args = parser.parse_args()
 
 # sets up variables and stuff
 inputFolder = args.inputFolder
 volumeNumber = args.volumeNumber
+japaneseOrder = args.jp
 INDEX = 0
 FOLDER_INDEX = 0
 
@@ -63,8 +65,13 @@ def convertImages(input, output):
         if width > height:
             print(f + ' is double page')
             left, right = cutInHalfImage(image)
-            saveImage(resizeImage(f, left), output)
-            saveImage(resizeImage(f, right), output)
+            
+            if japaneseOrder:
+                saveImage(resizeImage(f, right), output)
+                saveImage(resizeImage(f, left), output)
+            else:
+                saveImage(resizeImage(f, left), output)
+                saveImage(resizeImage(f, right), output)
         else:
             print(f + ' is a normal page')
             saveImage(resizeImage(f, image), output)
