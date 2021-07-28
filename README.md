@@ -14,7 +14,7 @@ This tool should make all-ready volume, from just collection of randomly downloa
 				- 00001.jpg
 		- PAOLO-Tools.py
 		
-Example Command:
+### Example Command:
 	- PAOLO-Tools.py ULTRAAWESOMEMANGA 1
 	
 ### What it creates in Example Directory:
