@@ -35,14 +35,14 @@ This tool should make all-ready volume, from just collection of randomly downloa
 			
 ____________________________________________________________________________________
 
-maker.py
+# maker.py
 
 It adds manga/book to the library.
 
-###Args:
+### Args:
 LIBRARY_FOLDER, SLUG, TITLE, BOOKTYPE, VOLUMES, EXTENSION, --jp
 
-###Example Command:
+### Example Command:
 maker.py library awesome-manga "Awesome Manga" manga 1 .webm --jp
 
 
