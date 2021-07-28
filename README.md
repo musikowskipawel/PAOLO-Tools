@@ -3,6 +3,10 @@ It's for [Okuma-Reader](https://github.com/DrMint/Okuma-Reader)<br><br>
 This tool should make all-ready volume, from just collection of randomly downloaded manga folders
 99% of the code is copied from [Okuma-Tools](https://github.com/DrMint/Okuma-Tools)
 
+Before using, install pillow and natsort:<br>
+- pip install pillow<br>
+- pip install natsort<br>
+
 ### Example Directory:
 	- some folder/
 		- ULTRAAWESOMEMANGA/
