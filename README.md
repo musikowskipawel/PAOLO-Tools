@@ -12,7 +12,6 @@ Example Directory:
 				00001.jpg
 			002.5 CHAPTER some ultra special chapter /
 				00001.jpg
-				
 		PAOLO-Tools.py
 		
 Example Command:
