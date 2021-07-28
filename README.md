@@ -30,6 +30,6 @@ Example Command:
 				- 1.webm
 				- 2.webm
 				- etc.
-		- config.json
+			- config.json
 		
 			
